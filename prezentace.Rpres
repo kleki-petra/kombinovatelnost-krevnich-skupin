@@ -1,0 +1,37 @@
+Aplikace pro zjištění kompatibility krevních skupin
+========================================================
+author: Petra Slížková
+date: 12. února 2021
+font-family: Palatino Linotype
+autosize: true
+
+
+Krevní skupiny
+========================================================
+Existují čtyři základní krevní skupiny, označované jako A, B, AB a 0. Tyto skupiny se liší přítomností konkrétních látek v membráně červených krvinek. Tyto látky pak ovlivňují, zda jsou krevní skupiny kompatibilní, tedy slučitelné, či nikoli. 
+
+Kompatibilitu krevních skupin využíváme při:
+- darování krve
+- transfuzi
+- transplantaci orgánů (krevní skupina není jediné hledisko)
+
+
+Krevní skupiny
+========================================================
+V kombinovatelnosti krevních skupin přitom nezáleží pouze na typu skupiny, ale i na směru. 
+S některými skupinami jsme kompatibilní jako dárci, tedy my jim můžeme krev darovat, ale nejsme kompatibilní jako příjemci, tedy od těch samých skupin my krev přijmout nemůžeme. 
+
+Kromě typu krevní skupiny podle dělení AB0 hraje důležitou roli v kompatibilitě i tzv. Rh faktor (Rhesus faktor).
+
+
+Aplikace pro zjištění kompatibility krevních skupin
+========================================================
+Aplikace by Vám měla pomoci jednoduše zjistit, se kterými krevními skupinami jste kompatibilní jako dárce a jako příjemce. 
+
+Potřebujete znát:
+- svou krevní skupinu
+- svůj Rh faktor
+
+Tyto údaje zadáte do aplikace a dozvíte se, pro koho jste vhodným dárcem a od koho naopak můžete krev přijímat.
+
+Aplikace je dostupná zde: https://klekipetra.shinyapps.io/Krevni_skupiny_kombinovatelnost/
