@@ -2,7 +2,7 @@ library(shiny)
 
 shinyServer(function(input, output) {
     
-    output$vystup1 <- renderText({
+    output$vystup1 <- renderText({      # zadání krevní skupiny
  
         if (input$kr_skup == "A") {
           krskup <- ("A")
@@ -14,7 +14,7 @@ shinyServer(function(input, output) {
                     krskup <- ("0")
                     }
         
-        if (input$rh_fakt == "+") {
+        if (input$rh_fakt == "+") {     # zadání Rh faktoru
             rhfakt <- ("+")
             } else if (input$rh_fakt == "-") {
                 rhfakt <- ("-")
@@ -25,7 +25,7 @@ shinyServer(function(input, output) {
         
     }) 
     
-      
+    # tabulka kombinovatelnosti  
     my_vect <- c(1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1) 
     my_matr <- matrix(my_vect, nrow = 8, ncol = 8)
     
@@ -54,9 +54,9 @@ shinyServer(function(input, output) {
             y <- 1
             }
         
-        z <- (1 + 2*x + y)
+        z <- (1 + 2*x + y)      # výpočet souřadnice v tabulce
         
-        i_r <- which(krevni_skupiny[z,] == 1)
+        i_r <- which(krevni_skupiny[z,] == 1)       # výpis kombinovatelných
         radky <- paste0(names(krevni_skupiny)[i_r], collapse = ", ")
         
         vysledek2 <- c("Můžete darovat krev příjemcům s následujícími krevními skupinami: ", radky)
@@ -83,9 +83,9 @@ shinyServer(function(input, output) {
             y <- 1
             }
 
-      z <- (1 + 2*x + y)
+      z <- (1 + 2*x + y)        # výpočet souřadnice v tabulce
       
-      i_s <- which(krevni_skupiny[,z] == 1)
+      i_s <- which(krevni_skupiny[,z] == 1)     # výpis kombinovatelných
       sloupce <- paste0(names(krevni_skupiny)[i_s], collapse = ", ")
       
       vysledek3 <- c("Můžete přijímat krev od dárců následujících krevních skupin: ", sloupce)
