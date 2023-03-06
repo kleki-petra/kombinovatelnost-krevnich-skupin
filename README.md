@@ -1,4 +1,4 @@
-# Kombinovatelnost krevních skupin
+## Kombinovatelnost krevních skupin
 #### Jednoduché zjištění kompatibility krevních skupin pro dárce i příjemce krve. Aplikace je dostupná na https://klekipetra.shinyapps.io/Krevni_skupiny_kombinovatelnost/
 
 #### Background
