@@ -7,8 +7,5 @@ Existují čtyři základní krevní skupiny, označované jako A, B, AB a 0. Ty
 #### Použití
 Aplikace pomůže jednoduše zjistit, se kterými krevními skupinami jste kompatibilní jako dárce a jako příjemce. Potřebujete znát svou krevní skupinu a svůj Rh faktor.
 
-#### Historie
-Projekt vznikl v rámci kurzu Úvod do programování na Fonetickém ústavu Filozofické fakulty Univerzity Karlovy.
-
 #### Projekt
-Projekt má tři části. Úvodní prezentaci v RPress, aplikaci samotnou (zdrojový kód) a nastavení uživatelského rozhraní pro shinyapps. 
+Projekt má tři části. Úvodní prezentaci v RPress, aplikaci samotnou (zdrojový kód) a nastavení uživatelského rozhraní pro shinyapps. Projekt vznikl v rámci kurzu Úvod do programování na Fonetickém ústavu Filozofické fakulty Univerzity Karlovy.
